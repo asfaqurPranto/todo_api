@@ -6,15 +6,15 @@ This project is a completion of the **[Todo List API project on roadmap.sh](http
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 👤 **User registration and login**
-- 🧾 **CRUD operations** for to-do items
-- 🔐 **User authentication and authorization** using JWT
-- 🔁 **Refresh token** mechanism for authentication
-- ⚠️ **Error handling** and security measures
-- 🐳 **Database integration using Docker**
-- ⚙️ Built with **Gin web framework**
+-  **User registration and login**
+-  **CRUD operations** for to-do items
+-  **User authentication and authorization** using JWT
+-  **Refresh token** mechanism for authentication
+-  **Error handling** and security measures
+-  **Database integration using Docker**
+-  Built with **Gin web framework**
 
 ---
 
@@ -108,8 +108,7 @@ Response:
 204 No Content
 Get To-Do Items 
 
-
-🗂️ Project Directory Structure
+Project Directory Structure
 
 todo-api
 ├── cmd
