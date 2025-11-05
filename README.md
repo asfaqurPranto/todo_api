@@ -12,7 +12,6 @@ This project implements a **RESTful API** for managing a to-do list with **user 
 -  **User authentication and authorization** using JWT  
 -  **Refresh token** mechanism for authentication  
 -  **Error handling** and security measures  
--  **Database integration using Docker**  
 -  Built with **Gin web framework**
 
 ---
