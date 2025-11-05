@@ -28,8 +28,9 @@ func main(){
 	{
 		todo_route.GET("/:todo_id",middleware.Login_Required,handlers.Get_by_id)		//need to add middleware(loginrequired) for all func 
 		todo_route.GET("/",middleware.Login_Required,handlers.Get_All)
-		todo_route.POST("/create",middleware.Login_Required,handlers.Create_Todo)
-		todo_route.PUT("/update/:todo_id",middleware.Login_Required,handlers.Update_Todo)
+		todo_route.POST("/",middleware.Login_Required,handlers.Create_Todo)
+		todo_route.PUT("/:todo_id",middleware.Login_Required,handlers.Update_Todo)
+		todo_route.DELETE("/:todo_id",middleware.Login_Required,handlers.Delete_Todo)
 		
 	}
 	
